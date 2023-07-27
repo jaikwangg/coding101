@@ -1,0 +1,253 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "wtf",
+            "request": "launch",
+            "mainClass": "wtf",
+            "projectName": "java_c1cc16fd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab5_65776",
+            "request": "launch",
+            "mainClass": "oop.Lab5_65776",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Launch lab3",
+            "request": "launch",
+            "mainClass": "packA.lab3",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab2Inheritance",
+            "request": "launch",
+            "mainClass": "Lab2Inheritance",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab1Driver",
+            "request": "launch",
+            "mainClass": "Lab1Driver",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProFun13Q3_ReadCSV650776",
+            "request": "launch",
+            "mainClass": "ProFun13Q3_ReadCSV650776",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Launch teat11",
+            "request": "launch",
+            "mainClass": "teat11",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Launch Circle_650776",
+            "request": "launch",
+            "mainClass": "Circle_650776",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main1",
+            "request": "launch",
+            "mainClass": "Main1",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProFun14StreamDemoQ3",
+            "request": "launch",
+            "mainClass": "ProFun14StreamDemoQ3",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProFun14StreamDemoQ2",
+            "request": "launch",
+            "mainClass": "ProFun14StreamDemoQ2",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProFun14StreamDemo",
+            "request": "launch",
+            "mainClass": "ProFun14StreamDemo",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab14",
+            "request": "launch",
+            "mainClass": "Lab14",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProFun13_ReadCSV650776",
+            "request": "launch",
+            "mainClass": "ProFun13_ReadCSV650776",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Launch test1",
+            "request": "launch",
+            "mainClass": "test1",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quiz2",
+            "request": "launch",
+            "mainClass": "Quiz2",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quiz1_0776",
+            "request": "launch",
+            "mainClass": "Quiz1_0776",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProFun08_Q2_650776",
+            "request": "launch",
+            "mainClass": "ProFun08_Q2_650776",
+            "projectName": "java"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab4Q465776",
+            "request": "launch",
+            "mainClass": "Lab4Q465776",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProFun08_Q2_650776",
+            "request": "launch",
+            "mainClass": "ProFun08_Q2_650776",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quiz1_0776",
+            "request": "launch",
+            "mainClass": "Quiz1_0776",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch test1",
+            "request": "launch",
+            "mainClass": "test1",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProFun09_Q2_650776",
+            "request": "launch",
+            "mainClass": "ProFun09_Q2_650776",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProFun08_Q2_65776",
+            "request": "launch",
+            "mainClass": "ProFun08_Q2_65776",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProFun08_Q3_65776",
+            "request": "launch",
+            "mainClass": "ProFun08_Q3_65776",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab3Q350776",
+            "request": "launch",
+            "mainClass": "Lab3Q350776",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab7Q3_65776",
+            "request": "launch",
+            "mainClass": "Lab7Q3_65776",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch yakkinbualoy",
+            "request": "launch",
+            "mainClass": "yakkinbualoy",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab2",
+            "request": "launch",
+            "mainClass": "Lab2",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab7Q2_50776",
+            "request": "launch",
+            "mainClass": "Lab7Q2_50776",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab7Q1_65776",
+            "request": "launch",
+            "mainClass": "Lab7Q1_65776",
+            "projectName": "java_3e0290da"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "java_3e0290da"
+        }
+    ]
+}

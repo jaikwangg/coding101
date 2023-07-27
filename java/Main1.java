@@ -1,0 +1,75 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.Scanner;
+
+public class Main1{
+		ArrayList <ProFun14Employee> eList;
+		ArrayList <ProFun14Employee> aList;
+		Main1(){
+			eList = new ArrayList<>();
+			eList.add(new ProFun14Employee("D", "HR", 9000, 2016));
+			eList.add(new ProFun14Employee("B", "IT", 5000, 2011));
+			eList.add(new ProFun14Employee("C", "IT", 6000, 2014));
+			eList.add(new ProFun14Employee("A", "Finance", 7000, 2018));
+		}
+		void oldWay(){
+			Scanner sc = new Scanner(System.in);
+			int i = sc.nextInt();
+			aList = new ArrayList<>();
+			ArrayList <ProFun14Employee> sum = new ArrayList<>();
+			int j = 0;
+			while(j<i){
+				String n =sc.next();
+				String d =sc.next();
+				int sal =sc.nextInt();
+				int yr =sc.nextInt();
+				aList.add(new ProFun14Employee(n, d, sal, yr));
+				j++;
+			}
+			String sameDept = sc.next();
+			for(int k = 0 ; k<aList.size() ; k++){
+				if(aList.get(k).dept.equals(sameDept)){
+					sum.add(aList.get(k));
+				}
+			}
+			System.out.println(sum);
+			sc.close();
+		}
+		void streamWay(){
+			int  yeartherehold = 2015;
+			List<ProFun14Employee> empBefore2015;
+			empBefore2015 = eList.stream().filter(e -> e.getYearStart() < yeartherehold).collect(Collectors.toList());
+			
+			System.out.println(empBefore2015);
+		}
+		public static void main(String[] agrs){
+			Main1 demo = new Main1();
+			//demo.streamWay();
+			demo.oldWay();
+		}
+		class ProFun14Employee{
+			String name ;
+			String dept ;
+			int salary ;
+			int yearstart ;
+			
+			ProFun14Employee(String n ,String d , int sal , int yr){
+				name = n;
+				dept = d;
+				salary = sal;
+				yearstart =yr;
+			 
+			}
+	
+			public int getYearStart() {
+				return yearstart;
+			}
+			public int getSalary() {
+				return salary;
+			}
+			public String toString(){
+				return String.format("%s %s(%d) %d",dept,name,yearstart,salary);
+			} 
+		}
+	}

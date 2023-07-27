@@ -1,0 +1,9 @@
+{
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "C_Cpp.errorSquiggles": "Disabled",
+    "java.debug.settings.onBuildFailureProceed": true
+}
