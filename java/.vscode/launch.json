@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GaussianElimination",
+            "request": "launch",
+            "mainClass": "GaussianElimination",
+            "projectName": "java_40e47520"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "arcade66.test",
+            "projectName": "java_40e47520"
+        },
+        {
+            "type": "java",
+            "name": "modza",
+            "request": "launch",
+            "mainClass": "arcade66.modza",
+            "projectName": "java_40e47520"
+        },
+        {
+            "type": "java",
             "name": "wtf",
             "request": "launch",
             "mainClass": "wtf",
