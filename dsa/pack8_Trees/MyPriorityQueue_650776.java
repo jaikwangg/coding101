@@ -55,6 +55,7 @@ class MyMinHeap{
             c = p;
             p = (c-1)/2;
         }
+        // System.out.println(heap.add(data));
     }
     public int remove(){
         swap(0, --size);

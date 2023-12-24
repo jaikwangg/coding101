@@ -1,8 +1,8 @@
-package algo;
+
 
 import java.util.Scanner;
 
-public class Lab1 {
+public class lab1 {
 
     public static void findX(double A, double B, double C) {
         if (A == 0) {

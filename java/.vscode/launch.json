@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lab5Q4_165776",
+            "request": "launch",
+            "mainClass": "Lab5Q4_165776",
+            "projectName": "java_40e47520"
+        },
+        {
+            "type": "java",
+            "name": "Lab5Q5_365776",
+            "request": "launch",
+            "mainClass": "Lab5Q5_365776",
+            "projectName": "java_40e47520"
+        },
+        {
+            "type": "java",
+            "name": "Lab5Q5_165776",
+            "request": "launch",
+            "mainClass": "Lab5Q5_165776",
+            "projectName": "java_40e47520"
+        },
+        {
+            "type": "java",
             "name": "GaussianElimination",
             "request": "launch",
             "mainClass": "GaussianElimination",

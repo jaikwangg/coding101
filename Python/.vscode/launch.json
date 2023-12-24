@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "adventCode3_1",
+            "request": "launch",
+            "mainClass": "adventCode3_1",
+            "projectName": "Python_6e8f207a"
+        },
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
