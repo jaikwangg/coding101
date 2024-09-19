@@ -7,7 +7,7 @@ y=614
 # Set the time interval between each click in seconds
 interval = 1
 
-# # Infinite loop to continuously click
+# Infinite loop to continuously click
 while True:
     pyautogui.click(x=x, y=y)
     time.sleep(interval)
